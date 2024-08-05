@@ -12,6 +12,7 @@ public class MouseHover {
 	@Test
 	public void dragAndDrop() throws InterruptedException
 	{
+		System.out.println("Actions Class");
 		driver = new EdgeDriver();
 		driver.get("https://jqueryui.com/droppable/");
 		driver.manage().window().maximize();
