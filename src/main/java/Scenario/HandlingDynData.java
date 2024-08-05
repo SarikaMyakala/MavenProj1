@@ -11,6 +11,7 @@ public class HandlingDynData {
 	@Test
 	public void DynData() throws InterruptedException
 	{
+		System.out.println("Handling Dynamic Data...");
 		driver = new EdgeDriver();
 		driver.get("https://www.jqueryscript.net/demo/Simple-Math-Captcha-Plugin-for-jQuery-ebcaptcha/demo/");
 		driver.manage().window().maximize();
